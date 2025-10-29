@@ -1,6 +1,6 @@
 spring:
   application:
-    name: API Products
+    name: products api
 
   datasource:
     url: jdbc:h2:mem:products
@@ -10,9 +10,6 @@ spring:
 
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
-    hibernate:
-      ddl-auto: update
-    show-sql: true
 
   h2:
     console:
